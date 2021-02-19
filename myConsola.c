@@ -14,9 +14,7 @@ return A*B;
 }
 
 void setConsoleSize(int width, int heigth){
-     printf("%s\n","hola" );
-
-
+    
 	// Set up the handles for reading/writing:
     wHnd = GetStdHandle(STD_OUTPUT_HANDLE);
     rHnd = GetStdHandle(STD_INPUT_HANDLE);
